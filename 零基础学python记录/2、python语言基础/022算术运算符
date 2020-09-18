@@ -1,0 +1,27 @@
+常用的算述运算符如下：
+运算符               说明                                   实例                结果
++                    加                                   12.45+15             27.45
+-                    减                                   4.56-0.26            4.3
+*                    乘                                   5*3.6                18.0
+/                    除                                   7/2                  3.5
+%                    求余，即返回除法的余数                  7%2                  1
+//                   取整除，即返回商的整数部分              7//2                 3
+**                   幂，即返回x的y次方                     2**4                 16，即2的4次方
+
+说明：在算术运算符中使用%求余，如果除数（第二个操作数）是负数，那么取得的结果也是一个负值。
+注意：使用除法（/或//）运算符和求余运算符时，除数不能为0，否则将会出现异常，如下：
+>>> 5//0
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    5//0
+ZeroDivisionError: integer division or modulo by zero
+>>> 5/0
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    5/0
+ZeroDivisionError: division by zero
+>>> 5%0
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    5%0
+ZeroDivisionError: integer division or modulo by zero
