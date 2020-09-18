@@ -1,0 +1,5 @@
+print('hello world','There is a tree','No they not is')
+print(300)
+print(100+200)
+name = input('Please enter your name:')
+print('hello,',name)

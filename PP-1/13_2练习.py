@@ -1,0 +1,10 @@
+def printaddress (name,address,street,city,province,code,country):
+    print (name)
+    print (address)
+    print (street)
+    print (city)
+    print (province)
+    print (code)
+    print (country)
+    print ()
+printaddress('jack','303','NO 1','North','Moscow','01001','RUSSIA')
