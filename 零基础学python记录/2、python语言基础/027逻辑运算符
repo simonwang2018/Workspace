@@ -1,0 +1,13 @@
+逻辑运算符是对真和假两种布尔值进行运算，运算后的结果仍是一个布尔值，python中的逻辑运算符主要包括and（逻辑与）、or(逻辑或)、not（逻辑非）
+运算符         含 义              用  法                 结合方向
+and           逻辑与             op1 and op2            从左到右
+or            逻辑或             op1 or op2             从左到右
+not           逻辑非             not op                 从右到左
+
+使用逻辑运算符进行逻辑运算时，其运算结果如下：
+表达示1       表达示2       表达示1 and 表达示2       表达示1 or 表达式2     not 表达式1
+True         True           True                     True                 False
+True         False          False                    True                 False
+False        False          False                    False                True
+False        True           False                    True                 Ture
+
